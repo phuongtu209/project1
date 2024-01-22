@@ -1,0 +1,1238 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: affirm
+  - action: utter_happy
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+- story: sad ktpm
+  steps:
+  - intent: ask_thongtin_ktpm
+  - action: utter_ktpm_khainiem_1
+- story: sad ktpm2
+  steps:
+  - intent: ask_tohopxettuyen_ktpm
+  - action: utter_ktpm_tohopxettuyen_1
+- story: sad ktpm 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_diemchuan_ktpm
+  - action: utter_ktpm_diemchuan_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad ktpm 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_tochat_ktpm
+  - action: utter_ktpm_tochat_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad ktpm 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deny
+  - action: utter_goodbye
+- story: sad ktpm 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_hocphi_ktpm
+  - action: utter_ktpm_hocphi_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad thoi gian ktpm 2
+  steps:
+  - intent: ask_thoigian_ktpm
+  - action: utter_ktpm_thoigian_1
+- story: sad ktpm dau ra
+  steps:
+  - intent: ask_daura_ktpm
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 3
+  steps:
+  - intent: ask_daura_khdl
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 4
+  steps:
+  - intent: ask_daura_httt
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm5
+  steps: 
+  - intent: ask_daura_khmt
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 6
+  steps:
+  - intent: ask_daura_cntt
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 6r
+  steps:  
+  - intent: ask_daura_qlcn
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 7
+  steps:  
+  - intent: ask_daura_qlxd
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 8
+  steps:  
+  - intent: ask_daura_logistic
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 9
+  steps:  
+  - intent: ask_daura_ktcdt
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 10
+  steps:  
+  - intent: ask_daura_ktctxd
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 11
+  steps:  
+  - intent: ask_daura_cntp
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 12
+  steps:  
+  - intent: ask_daura_cnsh
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 13
+  steps:  
+  - intent: ask_daura_cnsh
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 14
+  steps:  
+  - intent: ask_daura_ktnl
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 15
+  steps:  
+  - intent: ask_daura_qtkd
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 16
+  steps:  
+  - intent: ask_daura_cnsh
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 17
+  steps:  
+  - intent: ask_daura_kthh
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 18
+  steps:  
+  - intent: ask_daura_nna
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 19
+  steps:  
+  - intent: ask_daura_luat
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 20
+  steps:  
+  - intent: ask_daura_tcnh
+  - action: utter_ktpm_daura_1
+- story: sad thoi gian ktpm 21
+  steps:  
+  - intent: ask_daura_ketoan
+  - action: utter_ktpm_daura_1
+- story: sad ktpm vi tri viec lam
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_vitrivieclam_ktpm
+  - action: utter_ktpm_vitrivieclam_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad ktpm 8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_luong_ktpm
+  - action: utter_luong_ktpm_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad ktpm 9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_kienthuc_ktpm
+  - action: utter_ktpm_kienthuc_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad ktpm 15
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_kynang_ktpm
+  - action: utter_ktpm_kynang_1
+  - intent: deny
+  - action: utter_goodbye 
+- story: sad khdl1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_thongtin_khdl
+  - action: utter_khdl_khainiem_1
+- story: sad khdl tohopxettuyen
+  steps:
+  - intent: ask_tohopxettuyen_khdl
+  - action: utter_khdl_tohopxettuyen_1
+- story: sad khdl 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_diemchuan_khdl
+  - action: utter_khdl_diemchuan_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khdl 2
+  steps:
+  - intent: ask_tochat_khdl
+  - action: utter_khdl_tochat_1
+- story: sad khdl hocphi
+  steps:
+  - intent: ask_hocphi_khdl
+  - action: utter_khdl_hocphi_1
+- story: sad khdl vitrivieclam
+  steps:
+  - intent: ask_vitrivieclam_khdl
+  - action: utter_khdl_vitrivieclam_1
+- story: sad khdl 8
+  steps:
+  - intent: ask_luong_khdl
+  - action: utter_luong_khdl_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khdl 9
+  steps:
+  - intent: ask_kienthuc_khdl
+  - action: utter_khdl_kienthuc_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khdl 12
+  steps:
+  - intent: ask_kynang_khdl
+  - action: utter_khdl_kynang_1
+  - intent: deny
+  - action: utter_goodbye  
+- story: sad httt1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_thongtin_httt
+  - action: utter_khainiem_httt_1
+- story: sad httt2
+  steps:
+  - intent: ask_tohopxettuyen_httt
+  - action: utter_tohopxettuyen_httt_1
+  - intent: deny
+  - action: utter_goodbye 
+- story: sad httt 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_diemchuan_httt
+  - action: utter_diemchuan_httt_1
+- story: sad httt 2
+  steps:
+  - intent: ask_tochat_httt
+  - action: utter_tochat_httt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad httt 4t
+  steps:
+  - intent: ask_hocphi_httt
+  - action: utter_hocphi_httt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad httt 4
+  steps:
+  - intent: ask_vitrivieclam_httt
+  - action: utter_vitrivieclam_httt_1
+  - intent: deny
+  - action: utter_goodbye 
+- story: sad httt 8 luong
+  steps:
+  - intent: ask_luong_httt
+  - action: utter_luong_httt_1
+- story: sad httt 9
+  steps:
+  - intent: ask_kienthuc_httt
+  - action: utter_kienthuc_httt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad httt 12
+  steps:
+  - intent: ask_kynang_httt
+  - action: utter_kynang_httt_1
+  - intent: deny
+  - action: utter_goodbye  
+- story: sad khmt1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_khainiem_khmt
+  - action: utter_khainiem_khmt_1
+- story: sad khmt12
+  steps:
+  - intent: ask_tohopxettuyen_khmt
+  - action: utter_tohopxettuyen_khmt_1
+  - intent: deny
+  - action: utter_goodbye 
+   
+- story: sad khmt 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_diemchuan_khmt
+  - action: utter_diemchuan_khmt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khmt 4
+  steps:
+  - intent: ask_tochat_khmt
+  - action: utter_tochat_khmt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khmt hoc phi
+  steps:
+  - intent: ask_hocphi_khmt
+  - action: utter_hocphi_khmt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khmt vitrivieclam 4
+  steps:
+  - intent: ask_vitrivieclam_khmt
+  - action: utter_vitrivieclam_khmt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khmt 8
+  steps:
+  - intent: ask_luong_khmt
+  - action: utter_luong_khmt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khmt 9
+  steps:
+  - intent: ask_kienthuc_khmt
+  - action: utter_kienthuc_khmt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad khmt 12
+  steps:
+  - intent: ask_kynang_khmt
+  - action: utter_kynang_khmt_1
+  - intent: deny
+  - action: utter_goodbye  
+- story: sad cntt1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_thongtin_cntt
+  - action: utter_khainiem_cntt_1
+- story: hoi ve cntt kien thuc 
+  steps :    
+    - intent: ask_kienthuc_cntt
+    - action: utter_kienthuc_cntt_1    
+- story: sad cntt2
+  steps:
+  - intent: ask_tohopxettuyen_cntt
+  - action: utter_tohopxettuyen_cntt_1
+  - intent: deny
+  - action: utter_goodbye 
+- story: sad cntt 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_diemchuan_cntt
+  - action: utter_diemchuan_cntt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad cntt 2
+  steps:
+  - intent: ask_tochat_cntt
+  - action: utter_tochat_cntt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad cntt 4
+  steps:
+  - intent: ask_hocphi_cntt
+  - action: utter_hocphi_cntt_1
+  - intent: deny
+  - action: utter_goodbye
+- story: sad cntt 44
+  steps:
+  - intent: ask_vitrivieclam_cntt
+  - action: utter_vitrivieclam_cntt_1
+  - intent: deny
+  - action: utter_goodbye  
+- story: sad cntt 8
+  steps:
+  - intent: ask_luong_cntt
+  - action: utter_luong_cntt_1
+  - intent: deny
+  - action: utter_goodbye
+
+- story: sad cntt 12
+  steps:
+  - intent: ask_kynang_cntt
+  - action: utter_kynang_cntt_1
+  - intent: deny
+  - action: utter_goodbye  
+- story: hoi ve qlcn
+  steps :
+    - intent: ask_khainiem_qlcn
+    - action: utter_khainiem_qlcn_1
+- story: hoi ve qlcn1
+  steps:    
+    - intent: ask_tohopxettuyen_qlcn
+    - action: utter_tohopxettuyen_qlcn_1 
+- story: hoi ve qlcn2
+  steps:   
+    - intent: ask_diemchuan_qlcn
+    - action: utter_diemchuan_qlcn_1 
+- story: hoi ve qlcn5
+  steps:      
+    - intent: ask_hocphi_qlcn
+    - action: utter_hocphi_qlcn_1 
+- story: hoi ve qlcn16
+  steps:      
+    - intent: ask_vitrivieclam_qlcn
+    - action: utter_vitrivieclam_qlcn_1  
+- story: hoi ve qlcn 17
+  steps:  
+    - intent: ask_vitrivieclam_qlcn
+    - action: utter_vitrivieclam_qlcn_1
+- story: sad hoi ve 18
+  steps:     
+    - intent: ask_luong_qlcn
+    - action: utter_luong_qlcn_1
+- story: hoi ve qlcn 19
+  steps:     
+    - intent: ask_kienthuc_qlcn
+    - action: utter_kienthuc_qlcn_1 
+- story: hoi ve qlcn20
+  steps:     
+    - intent: ask_kynang_qlcn
+    - action: utter_kynang_qlcn_1
+- story: hoi ve qlcn21
+  steps:     
+    - intent: ask_muctieutongquat_qlcn
+    - action: utter_muctieutongquat_qlcn_1
+- story: hoi ve qlcn212
+  steps:     
+    - intent: ask_muctieucuthe_qlcn
+    - action: utter_muctieucuthe_qlcn_1    
+- story: hoi ve qlcn21
+  steps:   
+    - intent: ask_nangluc_qlcn
+    - action: utter_nangluc_qlcn_1
+- story: hoi ve qlcn22
+  steps:     
+    - intent: ask_daoducnghenghiep_qlcn
+    - action: utter_daoducnghenghiep_qlcn_1
+- story: hoi ve qlxd
+  steps :
+    - intent: ask_khainiem_qlxd
+    - action: utter_khainiem_qlxd_1
+- story: hoi ve qlxd1
+  steps:     
+    - intent: ask_tohopxettuyen_qlxd
+    - action: utter_tohopxettuyen_qlxd_1
+- story: hoi ve qlxd12
+  steps:   
+    - intent: ask_diemchuan_qlxd
+    - action: utter_diemchuan_qlxd_1
+- story: hoi ve qlxd13
+  steps: 
+    - intent: ask_muctieucuthe_qlxd
+    - action: utter_muctieucuthe_qlxd_1
+- story: hoi ve qlxd15
+  steps:     
+    - intent: ask_hocphi_qlxd
+    - action: utter_hocphi_qlxd_1
+- story: hoi ve qlxd17
+  steps:     
+    - intent: ask_vitrivieclam_qlxd
+    - action: utter_vitrivieclam_qlxd_1
+- story: hoi ve qlxd18
+  steps:  
+    - intent: ask_luong_qlxd
+    - action: utter_luong_qlxd_1
+- story: hoi ve qlxd19
+  steps:     
+    - intent: ask_kienthuc_qlxd
+    - action: utter_kienthuc_qlxd_1
+- story: hoi ve qlxd19
+  steps:     
+    - intent: ask_kynang_qlxd
+    - action: utter_kynang_qlxd_1
+- story: hoi ve qlxd121
+  steps:     
+    - intent: ask_muctieutongquat_qlxd
+    - action: utter_muctieutongquat_qlxd_1
+- story:  hoi ve qlxd123
+  steps: 
+    - intent: ask_nangluc_qlxd
+    - action: utter_nangluc_qlxd_1
+- story: hoi ve qlxd1234
+  steps:     
+    - intent: ask_daoducnghenghiep_qlxd
+    - action: utter_daoducnghenghiep_qlxd_1
+- story: hoi ve logistic khai niem
+  steps :
+    - intent: ask_khainiem_logistic
+    - action: utter_khainiem_logistic_1
+- story: hoi ve logistic1 to hop xet tuyen
+  steps:  
+    - intent: ask_tohopxettuyen_logistic
+    - action: utter_tohopxettuyen_logistic_1
+- story: hoi ve logistic2 diem chuan
+  steps: 
+
+    - intent: ask_diemchuan_logistic
+    - action: utter_diemchuan_logistic_1
+- story: hoi ve logistic3 muc tieu cu the
+  steps:   
+    - intent: ask_muctieucuthe_logistic
+    - action: utter_muctieucuthe_logistic_1
+- story: hoi ve logistic5 hoc phi
+  steps: 
+    - intent: ask_hocphi_logistic
+    - action: utter_hocphi_logistic_1
+- story: hoi ve logistic7 vi tri viec lam
+  steps: 
+    - intent: ask_vitrivieclam_logistic
+    - action: utter_vitrivieclam_logistic_1
+- story: hoi ve logistic8 luong
+  steps:     
+    - intent: ask_luong_logistic
+    - action: utter_luong_logistic_1
+- story: hoi ve logistic9 kien thuc
+  steps:     
+    - intent: ask_kienthuc_logistic
+    - action: utter_kienthuc_logistic_1
+- story: hoi ve logistic10 ky nang
+  steps:    
+    - intent: ask_kynang_logistic
+    - action: utter_kynang_logistic_1
+- story: hoi ve logistic11
+  steps:   
+    - intent: ask_muctieutongquat_logistic
+    - action: utter_muctieutongquat_logistic_1
+- story: hoi ve logistic12
+  steps: 
+    - intent: ask_nangluc_logistic
+    - action: utter_nangluc_logistic_1
+- story: hoi ve logistic13
+  steps:    
+    - intent: ask_daoducnghenghiep_logistic
+    - action: utter_daoducnghenghiep_logistic_1
+- story: hoi ve ktctxd1
+  steps :
+    - intent: ask_khainiem_ktctxd
+    - action: utter_khainiem_ktctxd_1
+- story: hoi ve ktctxd12
+  steps:     
+    - intent: ask_tohopxettuyen_ktctxd
+    - action: utter_tohopxettuyen_ktctxd_1
+- story: hoi ve ktctxd13
+  steps:     
+    - intent: ask_diemchuan_ktctxd
+    - action: utter_diemchuan_ktctxd_1
+- story: hoi ve ktctxd14
+  steps:     
+    - intent: ask_muctieucuthe_ktctxd
+    - action: utter_muctieucuthe_ktctxd_1
+- story: hoi ve ktctxd17
+  steps:  
+  - intent: ask_hocphi_ktctxd
+  - action: utter_hocphi_ktctxd_1
+- story: hoi ve ktctxd19
+  steps:  
+  - intent: ask_vitrivieclam_ktctxd
+  - action: utter_vitrivieclam_ktctxd_1
+- story: hoi ve ktctxd20
+  steps: 
+  - intent: ask_luong_ktctxd
+  - action: utter_luong_ktctxd_1
+- story: hoi ve ktctxd1 kien thuc
+  steps:     
+    - intent: ask_kienthuc_ktctxd
+    - action: utter_kienthuc_ktctxd_1
+- story: hoi ve ktctxd1 ky nang
+  steps:     
+    - intent: ask_kynang_ktctxd
+    - action: utter_kynang_ktctxd_1
+- story: hoi ve ktctxd muctieu
+  steps:     
+    - intent: ask_muctieutongquat_ktctxd
+    - action: utter_muctieutongquat_ktctxd_1
+- story: hoi ve ktctxd1 nangluc
+  steps:    
+    - intent: ask_nangluc_ktctxd
+    - action: utter_nangluc_ktctxd_1
+- story: hoi ve ktctxd daoducnghenghiep
+  steps:    
+    - intent: ask_daoducnghenghiep_ktctxd
+    - action: utter_daoducnghenghiep_ktctxd_1
+- story: hoi ve ktcdt
+  steps :
+    - intent: ask_khainiem_ktcdt
+    - action: utter_khainiem_ktcdt_1
+- story: hoi ve ktcdt tohop
+  steps :    
+    - intent: ask_tohopxettuyen_ktcdt
+    - action: utter_tohopxettuyen_ktcdt_1
+- story: hoi ve ktcdt
+  steps :    
+    - intent: ask_diemchuan_ktcdt
+    - action: utter_diemchuan_ktcdt_1
+- story: hoi ve ktcdt mucttieu
+  steps :    
+    - intent: ask_muctieucuthe_ktcdt
+    - action: utter_muctieucuthe_ktcdt_1
+- story: hoi ve ktcdt hoc phi
+  steps :    
+    - intent: ask_hocphi_ktcdt
+    - action: utter_hocphi_ktcdt_1
+- story: hoi ve ktcdt vitrivieclam
+  steps :    
+    - intent: ask_vitrivieclam_ktcdt
+    - action: utter_vitrivieclam_ktcdt_1
+- story: hoi ve ktcdt luong
+  steps :    
+    - intent: ask_luong_ktcdt
+    - action: utter_luong_ktcdt_1
+- story: hoi ve ktcdt kienthuc
+  steps :    
+    - intent: ask_kienthuc_ktcdt
+    - action: utter_kienthuc_ktcdt_1
+- story: hoi ve ktcdt kynang
+  steps :    
+    - intent: ask_kynang_ktcdt
+    - action: utter_kynang_ktcdt_1
+- story: hoi ve ktcdt muctieutongquat
+  steps :    
+    - intent: ask_muctieutongquat_ktcdt
+    - action: utter_muctieutongquat_ktcdt_1
+- story: hoi ve ktcdt nangluc
+  steps :    
+    - intent: ask_nangluc_ktcdt
+    - action: utter_nangluc_ktcdt_1
+- story: hoi ve ktcdt daoducnghenghiep
+  steps :    
+    - intent: ask_daoducnghenghiep_ktcdt
+    - action: utter_daoducnghenghiep_ktcdt_1
+
+- story: hoi ve ktddt khai niem
+  steps :
+    - intent: ask_khainiem_ktddt
+    - action: utter_khainiem_ktddt_1
+- story: hoi ve ktddt to hop xet tuyen
+  steps :    
+    - intent: ask_tohopxettuyen_ktddt
+    - action: utter_tohopxettuyen_ktddt_1
+- story: hoi ve ktddt diem chuan
+  steps :    
+    - intent: ask_diemchuan_ktddt
+    - action: utter_diemchuan_ktddt_1
+- story: hoi ve ktddt muc tieu cu the
+  steps:    
+    - intent: ask_muctieucuthe_ktddt
+    - action: utter_muctieucuthe_ktddt_1
+
+- story: hoi ve ktddt hoc phi
+  steps :    
+    - intent: ask_hocphi_ktddt
+    - action: utter_hocphi_ktddt_1
+- story: hoi ve ktddt vi tri viec lam
+  steps :    
+    - intent: ask_vitrivieclam_ktddt
+    - action: utter_vitrivieclam_ktddt_1
+- story: hoi ve ktddt luong
+  steps :    
+    - intent: ask_luong_ktddt
+    - action: utter_luong_ktddt_1
+- story: hoi ve ktddt kien huc
+  steps :    
+    - intent: ask_kienthuc_ktddt
+    - action: utter_kienthuc_ktddt_1 
+- story: hoi ve ktddt ky nang
+  steps :    
+    - intent: ask_kynang_ktddt
+    - action: utter_kynang_ktddt_1
+- story: hoi ve ktddt muc tieu tong quat
+  steps :    
+    - intent: ask_muctieutongquat_ktddt
+    - action: utter_muctieutongquat_ktddt_1
+- story: hoi ve ktddt nang luc
+  steps :    
+    - intent: ask_nangluc_ktddt
+    - action: utter_nangluc_ktddt_1
+- story: hoi ve ktddt dao duc nghe nghiep
+  steps :    
+    - intent: ask_daoducnghenghiep_ktddt
+    - action: utter_daoducnghenghiep_ktddt_1
+
+- story: hoi ve dktdh khai niem
+  steps :
+    - intent: ask_khainiem_dktdh
+    - action: utter_khainiem_dktdh_1
+- story: hoi ve dktdh tohopxet tuyen
+  steps :    
+    - intent: ask_tohopxettuyen_dktdh
+    - action: utter_tohopxettuyen_dktdh_1
+- story: hoi ve dktdh diem chuan
+  steps :  
+    - intent: ask_diemchuan_dktdh
+    - action: utter_diemchuan_dktdh_1
+- story: hoi ve dktdh muc tieu cu the
+  steps :   
+    - intent: ask_muctieucuthe_dktdh
+    - action: utter_muctieucuthe_dktdh_1
+- story: hoi ve dktdh hoc phi
+  steps :    
+  - intent: ask_hocphi_dktdh
+  - action: utter_hocphi_dktdh_1
+- story: hoi ve dktdh vi tri viec lam
+  steps :    
+  - intent: ask_vitrivieclam_dktdh
+  - action: utter_vitrivieclam_dktdh_1
+- story: hoi ve dktdh lujong
+  steps :   
+  - intent: ask_luong_dktdh
+  - action: utter_luong_dktdh_1
+- story: hoi ve dktdh kien thuc
+  steps :    
+  - intent: ask_kienthuc_dktdh
+  - action: utter_kienthuc_dktdh_1
+- story: hoi ve dktdh ky nang
+  steps :
+  - intent: ask_kynang_dktdh
+  - action: utter_kynang_dktdh_1
+- story: hoi ve dktdh muc tieu tong quat
+  steps :    
+  - intent: ask_muctieutongquat_dktdh
+  - action: utter_muctieutongquat_dktdh_1
+- story: hoi ve dktdh nang luc
+  steps :   
+  - intent: ask_nangluc_dktdh
+  - action: utter_nangluc_dktdh_1
+- story: hoi ve dktdh dao duc nghe nghiep
+  steps :    
+  - intent: ask_daoducnghenghiep_dktdh
+  - action: utter_daoducnghenghiep_dktdh_1
+- story: hoi ve cntp khai niem
+  steps :
+  - intent: ask_khainiem_cntp
+  - action: utter_khainiem_cntp_1
+- story: hoi ve dktdh to hop xet tuyen
+  steps :    
+    - intent: ask_tohopxettuyen_cntp
+    - action: utter_tohopxettuyen_cntp_1
+- story: hoi ve dktdh diem chuan
+  steps :   
+    - intent: ask_diemchuan_cntp
+    - action: utter_diemchuan_cntp_1
+- story: hoi ve dktdh muc tieu cu the
+  steps :    
+    - intent: ask_muctieucuthe_cntp
+    - action: utter_muctieucuthe_cntp_1
+- story: hoi ve cntp hoc phi
+  steps :    
+    - intent: ask_hocphi_cntp
+    - action: utter_hocphi_cntp_1
+- story: hoi ve cntp vieclamvieclam
+  steps :    
+    - intent: ask_vitrivieclam_cntp
+    - action: utter_vitrivieclam_cntp_1
+- story: hoi ve cntp luong
+  steps :  
+    - intent: ask_luong_cntp
+    - action: utter_luong_cntp_1
+- story: hoi ve dktdh kien thuc
+  steps :    
+    - intent: ask_kienthuc_cntp
+    - action: utter_kienthuc_cntp_1  
+- story: hoi ve cntp ky nang
+  steps :    
+    - intent: ask_kynang_cntp
+    - action: utter_kynang_cntp_1
+- story: hoi ve cntp muc tieu tong quat
+  steps :    
+    - intent: ask_muctieutongquat_cntp
+    - action: utter_muctieutongquat_cntp_1
+- story: hoi ve cntp nang luc
+  steps :    
+    - intent: ask_nangluc_cntp
+    - action: utter_nangluc_cntp_1
+- story: hoi ve cntp dao duc nghe nghiep
+  steps :    
+    - intent: ask_daoducnghenghiep_cntp
+    - action: utter_daoducnghenghiep_cntp_1
+- story: hoi ve cnsh khai niem
+  steps : 
+    - intent: ask_khainiem_cnsh
+    - action: utter_khainiem_cnsh_1
+- story: hoi ve cnsh to hop xet tuyen
+  steps :    
+    - intent: ask_tohopxettuyen_cnsh
+    - action: utter_tohopxettuyen_cnsh_1
+- story: hoi ve cnsh diem chuan
+  steps :    
+    - intent: ask_diemchuan_cnsh
+    - action: utter_diemchuan_cnsh_1
+- story: hoi ve cnsh muc tieu cu the
+  steps :    
+    - intent: ask_muctieucuthe_cnsh
+    - action: utter_muctieucuthe_cnsh_1
+- story: hoi ve cnsh hoc phi
+  steps :    
+    - intent: ask_hocphi_cnsh
+    - action: utter_hocphi_cnsh_1
+- story: hoi ve cnsh vi tri viec lam
+  steps :    
+    - intent: ask_vitrivieclam_cnsh
+    - action: utter_vitrivieclam_cnsh_1
+- story: hoi ve cnsh luong
+  steps :    
+    - intent: ask_luong_cnsh
+    - action: utter_luong_cnsh_1
+- story: hoi ve cnsh kien thuc
+  steps :    
+    - intent: ask_kienthuc_cnsh
+    - action: utter_kienthuc_cnsh_1
+# - story: hoi ve cnsh ky nang
+#   steps :    
+#     - intent: ask_kynang_cnsh
+#     - action: utter_kynang_cnsh_1
+- story: hoi ve cnsh muc tieu tong quat
+  steps :    
+    - intent: ask_muctieutongquat_cnsh
+    - action: utter_muctieutongquat_cnsh_1
+- story: hoi ve cnsh nang luc
+  steps :   
+    - intent: ask_nangluc_cnsh
+    - action: utter_nangluc_cnsh_1
+- story: hoi ve cnsh dao duc nghe nghiep
+  steps :    
+    - intent: ask_daoducnghenghiep_cnsh
+    - action: utter_daoducnghenghiep_cnsh_1
+- story: hoi ve ktnl khai niem
+  steps :
+    - intent: ask_khainiem_ktnl
+    - action: utter_khainiem_ktnl_1
+- story: hoi ve ktnl
+  steps :    
+    - intent: ask_tohopxettuyen_ktnl
+    - action: utter_tohopxettuyen_ktnl_1
+- story: hoi ve ktnl diem chuan
+  steps :   
+    - intent: ask_diemchuan_ktnl
+    - action: utter_diemchuan_ktnl_1
+- story: hoi ve ktnl muc tieu cu the
+  steps :    
+    - intent: ask_muctieucuthe_ktnl
+    - action: utter_muctieucuthe_ktnl_1
+- story: hoi ve ktnl hoc phi
+  steps :    
+    - intent: ask_hocphi_ktnl
+    - action: utter_hocphi_ktnl_1
+- story: hoi ve ktnl vi tri viec lam
+  steps :    
+    - intent: ask_vitrivieclam_ktnl
+    - action: utter_vitrivieclam_ktnl_1
+- story: hoi ve ktnl luong
+  steps :    
+    - intent: ask_luong_ktnl
+    - action: utter_luong_ktnl_1
+- story: hoi ve ktnl kien thuc
+  steps :    
+    - intent: ask_kienthuc_ktnl
+    - action: utter_kienthuc_ktnl_1
+- story: hoi ve ktnl ky nang
+  steps :    
+    - intent: ask_kynang_ktnl
+    - action: utter_kynang_ktnl_1
+- story: hoi ve ktnl muc tieu tong quat
+  steps :    
+    - intent: ask_muctieutongquat_ktnl
+    - action: utter_muctieutongquat_ktnl_1
+- story: hoi ve ktnl nang luc
+  steps :    
+    - intent: ask_nangluc_ktnl
+    - action: utter_nangluc_ktnl_1
+- story: hoi ve qtkd khai niem
+  steps :
+    - intent: ask_khainiem_qtkd
+    - action: utter_khainiem_qtkd_1
+- story: hoi ve qtkd to hop xet tuyen
+  steps :    
+    - intent: ask_tohopxettuyen_qtkd
+    - action: utter_tohopxettuyen_qtkd_1
+- story: hoi ve qtkd diem chuan
+  steps :   
+    - intent: ask_diemchuan_qtkd
+    - action: utter_diemchuan_qtkd_1
+- story: hoi ve qtkd muc tieu cu the
+  steps :    
+    - intent: ask_muctieucuthe_qtkd
+    - action: utter_muctieucuthe_qtkd_1
+- story: hoi ve qtkd hoc phi
+  steps :    
+    - intent: ask_hocphi_qtkd
+    - action: utter_hocphi_qtkd_1
+- story: hoi ve qtkd vi tri viec lam
+  steps :    
+    - intent: ask_vitrivieclam_qtkd
+    - action: utter_vitrivieclam_qtkd_1
+- story: hoi ve qtkd luong
+  steps :    
+    - intent: ask_luong_qtkd
+    - action: utter_luong_qtkd_1
+- story: hoi ve qtkd kien thuc
+  steps :    
+    - intent: ask_kienthuc_qtkd
+    - action: utter_kienthuc_qtkd_1
+- story: hoi ve qtkd ky nang
+  steps :    
+    - intent: ask_kynang_qtkd
+    - action: utter_kynang_qtkd_1
+- story: hoi ve qtkd muc tieu tong quat
+  steps :    
+    - intent: ask_muctieutongquat_qtkd
+    - action: utter_muctieutongquat_qtkd_1
+- story: hoi ve qtkd nang luc
+  steps :   
+    - intent: ask_nangluc_qtkd
+    - action: utter_nangluc_qtkd_1
+- story: hoi ve qtkd dao duc nghe nghiep
+  steps :    
+    - intent: ask_daoducnghenghiep_qtkd
+    - action: utter_daoducnghenghiep_qtkd_1  
+- story: hoi ve ktnl dao duc nghe nghiep
+  steps :    
+    - intent: ask_daoducnghenghiep_ktnl
+    - action: utter_daoducnghenghiep_ktnl_1
+- story: sad kthh khai niem
+  steps: 
+    - intent: ask_khainiem_kthh
+    - action: utter_khainiem_kthh_1
+- story: sad kthh to hop xet tuyen
+  steps: 
+    - intent: ask_tohopxettuyen_kthh
+    - action: utter_tohopxettuyen_kthh_1
+- story: sad kthh diem chuan
+  steps:    
+    - intent: ask_diemchuan_kthh
+    - action: utter_diemchuan_kthh_1
+- story: sad kthh muc tieu cu the
+  steps:     
+    - intent: ask_muctieucuthe_kthh
+    - action: utter_muctieucuthe_kthh_1
+- story: sad kthh hoc phi
+  steps:     
+    - intent: ask_hocphi_kthh
+    - action: utter_hocphi_kthh_1
+- story: sad kthh vi tri viec lam
+  steps:     
+    - intent: ask_vitrivieclam_kthh
+    - action: utter_vitrivieclam_kthh_1
+- story: sad kthh luong
+  steps:     
+    - intent: ask_luong_kthh
+    - action: utter_luong_kthh_1
+- story: sad kthh kien thuc
+  steps:     
+    - intent: ask_kienthuc_kthh
+    - action: utter_kienthuc_kthh_1
+- story: sad kthh ky nang
+  steps:     
+    - intent: ask_kynang_kthh
+    - action: utter_kynang_kthh_1
+- story: sad kthh muc tieu tong quat
+  steps:     
+    - intent: ask_muctieutongquat_kthh
+    - action: utter_muctieutongquat_kthh_1
+- story: sad kthh nang luc
+  steps:    
+    - intent: ask_nangluc_kthh
+    - action: utter_nangluc_kthh_1
+- story: sad kthh dao duc nghe nghiep
+  steps:     
+    - intent: ask_daoducnghenghiep_kthh
+    - action: utter_daoducnghenghiep_kthh_1
+
+- story: hoi ve kthh khai niem
+  steps :
+    - intent: ask_khainiem_kthh
+    - action: utter_khainiem_kthh_1
+- story: hoi ve kthh to hop xet tuyen
+  steps :    
+    - intent: ask_tohopxettuyen_kthh
+    - action: utter_tohopxettuyen_kthh_1
+- story: hoi ve kthh diem chuan
+  steps :    
+    - intent: ask_diemchuan_kthh
+    - action: utter_diemchuan_kthh_1
+- story: hoi ve kthh muc tieu
+  steps :    
+    - intent: ask_muctieucuthe_kthh
+    - action: utter_muctieucuthe_kthh_1
+- story: hoi ve kthh hoc phi
+  steps :    
+    - intent: ask_hocphi_kthh
+    - action: 
+- story: hoi ve kthh vi tri viec lam
+  steps :    
+    - intent: ask_vitrivieclam_kthh
+    - action: utter_vitrivieclam_kthh_1
+- story: hoi ve kthh luong
+  steps :    
+    - intent: ask_luong_kthh
+    - action: utter_luong_kthh_1
+- story: hoi ve kthh
+  steps :    
+    - intent: ask_kienthuc_kthh
+    - action: utter_kienthuc_kthh_1
+- story: hoi ve kthh ky nang
+  steps :    
+    - intent: ask_kynang_kthh
+    - action: utter_kynang_kthh_1
+- story: hoi ve kthh muc tieu tong quat
+  steps :    
+    - intent: ask_muctieutongquat_kthh
+    - action: utter_muctieutongquat_kthh_1
+- story: hoi ve kthh ky nang
+  steps :    
+    - intent: ask_nangluc_kthh
+    - action: utter_nangluc_kthh_1
+- story: hoi ve kthh dao duc nghe nghiep
+  steps :      
+    - intent: ask_daoducnghenghiep_kthh
+    - action: utter_daoducnghenghiep_kthh_1
+- story: hoi ve nna khai niem
+  steps :
+    - intent: ask_khainiem_nna
+    - action: utter_khainiem_nna_1
+- story: hoi ve nna to hop xet tuyen
+  steps :    
+    - intent: ask_tohopxettuyen_nna
+    - action: utter_tohopxettuyen_nna_1
+- story: hoi ve nna diem chuan
+  steps :    
+    - intent: ask_diemchuan_nna
+    - action: utter_diemchuan_nna_1
+- story: hoi ve nna muc tieu cu the
+  steps :    
+    - intent: ask_muctieucuthe_nna
+    - action: utter_muctieucuthe_nna_1
+- story: hoi ve nna hoc phi
+  steps :    
+    - intent: ask_hocphi_nna
+    - action: utter_hocphi_nna_1
+- story: hoi ve nna vi tri viec lam
+  steps :    
+    - intent: ask_vitrivieclam_nna
+    - action: utter_vitrivieclam_nna_1
+- story: hoi ve nna luong
+  steps :    
+    - intent: ask_luong_nna
+    - action: utter_luong_nna_1
+- story: hoi ve nna kien thuc
+  steps :    
+    - intent: ask_kienthuc_nna
+    - action: utter_kienthuc_nna_1
+- story: hoi ve nna ky nang
+  steps :    
+    - intent: ask_kynang_nna
+    - action: utter_kynang_nna_1
+- story: hoi ve nna muc tieu tong quat
+  steps :    
+    - intent: ask_muctieutongquat_nna
+    - action: utter_muctieutongquat_nna_1
+- story: hoi ve nna nang luc
+  steps :    
+    - intent: ask_nangluc_nna
+    - action: utter_nangluc_nna_1
+- story: hoi ve nna dao duc nghe nghiep
+  steps :      
+    - intent: ask_daoducnghenghiep_nna
+    - action: utter_daoducnghenghiep_nna_1
+- story: hoi ve luat luat
+  steps :
+    - intent: ask_khainiem_luat
+    - action: utter_khainiem_luat_1
+- story: hoi ve luat to hop xet tuyen
+  steps :    
+    - intent: ask_tohopxettuyen_luat
+    - action: utter_tohopxettuyen_luat_1
+- story: hoi ve luat diem chuan
+  steps :    
+    - intent: ask_diemchuan_luat
+    - action: utter_diemchuan_luat_1
+- story: hoi ve luat muc tieu cu the
+  steps :    
+    - intent: ask_muctieucuthe_luat
+    - action: utter_muctieucuthe_luat_1
+- story: hoi ve luat hoc phi
+  steps :    
+    - intent: ask_hocphi_luat
+    - action: utter_hocphi_luat_1
+- story: hoi ve luat vi tri viec lam
+  steps :        
+    - intent: ask_vitrivieclam_luat
+    - action: utter_vitrivieclam_luat_1
+- story: hoi ve luat luong
+  steps :        
+    - intent: ask_luong_luat
+    - action: utter_luong_luat_1
+- story: hoi ve luat kien thuc
+  steps :        
+    - intent: ask_kienthuc_luat
+    - action: utter_kienthuc_luat_1       
+- story: hoi ve luat ky nang
+  steps :        
+    - action: utter_kynang_luat_1
+    - intent: ask_kynang_luat
+- story: hoi ve luat muc tieu tong quat
+  steps :        
+    - intent: ask_muctieutongquat_luat
+    - action: utter_muctieutongquat_luat_1
+- story: hoi ve luat nang luc
+  steps :        
+    - intent: ask_nangluc_luat
+    - action: utter_nangluc_luat_1
+- story: hoi ve luat dao duc nghe nghiep
+  steps :        
+    - intent: ask_daoducnghenghiep_luat
+    - action: utter_daoducnghenghiep_luat_1
+- story: hoi ve  khai niem
+  steps :
+    - intent: ask_khainiem_tcnh
+    - action: utter_khainiem_tcnh_1
+- story: hoi ve tcnh to hop xet tuyen
+  steps :     
+    - intent: ask_tohopxettuyen_tcnh
+    - action: utter_tohopxettuyen_tcnh_1
+- story: hoi ve diem chuan
+  steps :     
+    - intent: ask_diemchuan_tcnh
+    - action: utter_diemchuan_tcnh_1
+- story: hoi ve tcnh muc tieu cu the
+  steps :     
+    - intent: ask_muctieucuthe_tcnh
+    - action: utter_muctieucuthe_tcnh_1
+- story: hoi ve tcnh hoc phi
+  steps :     
+    - intent: ask_hocphi_tcnh
+    - action: utter_hocphi_tcnh_1
+- story: hoi ve tcnh vi tri viec lam
+  steps :      
+    - intent: ask_vitrivieclam_tcnh
+    - action: utter_vitrivieclam_tcnh_1
+- story: hoi ve ke toan luong
+  steps :      
+    - intent: ask_luong_tcnh
+    - action: utter_luong_tcnh_1
+- story: hoi ve tcnh kien thuc
+  steps :      
+    - intent: ask_kienthuc_tcnh
+    - action: utter_kienthuc_tcnh_1
+- story: hoi ve tcnh ky nang
+  steps :      
+    - action: utter_kynang_tcnh_1
+    - intent: ask_kynang_tcnh
+- story: hoi ve ke toan muc tieu tong quat
+  steps :      
+    - intent: ask_muctieutongquat_tcnh
+    - action: utter_muctieutongquat_tcnh_1
+# - story: hoi ve tcnh
+#   steps : 
+- story: hoi ve ke toan dao duc nghe nghiep
+  steps :      
+    - intent: ask_daoducnghenghiep_tcnh
+    - action: utter_daoducnghenghiep_tcnh_1
+- story: hoi ve ke toan khai niem
+  steps :
+    - intent: ask_khainiem_ketoan
+    - action: utter_khainiem_ketoan_1
+- story: hoi ve ke toan to hop xet 
+  steps :     
+    - intent: ask_tohopxettuyen_ketoan
+    - action: utter_tohopxettuyen_ketoan_1
+- story: hoi ve ke toan diem chuan
+  steps :     
+    - intent: ask_diemchuan_ketoan
+    - action: utter_diemchuan_ketoan_1
+- story: hoi ve ke toan muc tieu cu the
+  steps :     
+    - intent: ask_muctieucuthe_ketoan
+    - action: utter_muctieucuthe_ketoan_1
+- story: hoi ve ke toan hoc phi
+  steps :     
+    - intent: ask_hocphi_ketoan
+    - action: utter_hocphi_ketoan_1
+- story: hoi ve ke toan vi tri viec lam
+  steps :      
+    - intent: ask_vitrivieclam_ketoan
+    - action: utter_vitrivieclam_ketoan_1
+- story: hoi ve ke toan luong
+  steps :      
+    - intent: ask_luong_ketoan
+    - action: utter_luong_ketoan_1
+- story: hoi ve ketoan kien thuc
+  steps :      
+    - intent: ask_kienthuc_ketoan
+    - action: utter_kienthuc_ketoan_1
+- story: hoi ve ketoan ky nang
+  steps :      
+    - action: utter_kynang_ketoan_1
+    - intent: ask_kynang_ketoan
+- story: hoi ve ke toan muc tieu tong quat
+  steps :      
+    - intent: ask_muctieutongquat_ketoan
+    - action: utter_muctieutongquat_ketoan_1
+- story: hoi ve ke toan dao duc nghe nghiep
+  steps :      
+    - intent: ask_daoducnghenghiep_ketoan
+    - action: utter_daoducnghenghiep_ketoan_1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+

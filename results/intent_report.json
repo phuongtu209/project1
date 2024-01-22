@@ -1,0 +1,2219 @@
+{
+  "ask_luong_qlcn": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "ask_luong_qlxd": 3,
+      "ask_luong_cntp": 1
+    }
+  },
+  "ask_tohopxettuyen_cntp": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_muctieutongquat_cntp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_nangluc_ktcdt": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_kynang_tcnh": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.7999999999999999,
+    "support": 9,
+    "confused_with": {
+      "ask_nangluc_tcnh": 1
+    }
+  },
+  "ask_khainiem_dktdh": {
+    "precision": 0.7333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.846153846153846,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_kynang_ktnl": {
+    "precision": 0.7857142857142857,
+    "recall": 1.0,
+    "f1-score": 0.88,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_muctieutongquat_luat": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_tochat_ktpm": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_diemchuan_ketoan": {
+    "precision": 1.0,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.6,
+    "support": 7,
+    "confused_with": {
+      "ask_diemchuan_luat": 2,
+      "ask_diemchuan_ktctxd": 1
+    }
+  },
+  "ask_luong_httt": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_ktctxd": {
+    "precision": 0.6086956521739131,
+    "recall": 1.0,
+    "f1-score": 0.7567567567567568,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_kienthuc_khdl": {
+    "precision": 0.5,
+    "recall": 0.4,
+    "f1-score": 0.4444444444444445,
+    "support": 5,
+    "confused_with": {
+      "ask_tochat_khdl": 1,
+      "ask_hocphi_khdl": 1
+    }
+  },
+  "ask_daoducnghenghiep_ktddt": {
+    "precision": 0.4,
+    "recall": 0.8,
+    "f1-score": 0.5333333333333333,
+    "support": 5,
+    "confused_with": {
+      "ask_daoducnghenghiep_kthh": 1
+    }
+  },
+  "ask_hocphi_httt": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_daoducnghenghiep_qlxd": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444445,
+    "support": 8,
+    "confused_with": {
+      "ask_daoducnghenghiep_tcnh": 2,
+      "ask_tohopxettuyen_qlxd": 2
+    }
+  },
+  "ask_luong_ktnl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_khainiem_qlcn": {
+    "precision": 0.6875,
+    "recall": 1.0,
+    "f1-score": 0.8148148148148148,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_nangluc_luat": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 9,
+    "confused_with": {
+      "ask_kynang_luat": 3
+    }
+  },
+  "ask_kienthuc_httt": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_hocphi_httt": 1
+    }
+  },
+  "ask_hocphi_ktnl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_luong_ktpm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_luong_ktddt": {
+    "precision": 0.6666666666666666,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.7692307692307692,
+    "support": 11,
+    "confused_with": {
+      "ask_luong_ktcdt": 1
+    }
+  },
+  "ask_diemchuan_httt": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_kynang_nna": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_ktpm": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {
+      "ask_tohopxettuyen_kthh": 2
+    }
+  },
+  "ask_hocphi_tcnh": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_thongtin_ktpm": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "ask_kynang_ktpm": 2,
+      "mood_unhappy": 1
+    }
+  },
+  "ask_hocphi_cntp": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "ask_hocphi_cnsh": 2
+    }
+  },
+  "ask_muctieutongquat_cnsh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_vitrivieclam_ktpm": {
+    "precision": 0.7692307692307693,
+    "recall": 1.0,
+    "f1-score": 0.8695652173913044,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_hocphi_ktcdt": {
+    "precision": 0.625,
+    "recall": 0.5,
+    "f1-score": 0.5555555555555556,
+    "support": 10,
+    "confused_with": {
+      "ask_hocphi_ktddt": 5
+    }
+  },
+  "ask_kienthuc_cntp": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_daura_cntp": 1
+    }
+  },
+  "ask_luong_qtkd": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_kienthuc_ktnl": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "ask_daura_ktnl": 2,
+      "ask_kynang_ktnl": 1
+    }
+  },
+  "ask_tohopxettuyen_qlxd": {
+    "precision": 0.5384615384615384,
+    "recall": 1.0,
+    "f1-score": 0.7000000000000001,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_daura_logistic": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_diemchuan_kthh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_vitrivieclam_ketoan": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "ask_hocphi_ketoan": 1,
+      "ask_daura_ketoan": 1
+    }
+  },
+  "ask_kienthuc_ktctxd": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 5,
+    "confused_with": {
+      "ask_tohopxettuyen_ktctxd": 1
+    }
+  },
+  "ask_muctieucuthe_qtkd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_khainiem_tcnh": {
+    "precision": 0.5789473684210527,
+    "recall": 1.0,
+    "f1-score": 0.7333333333333334,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_khainiem_khmt": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 2,
+    "confused_with": {
+      "ask_vitrivieclam_khmt": 1
+    }
+  },
+  "ask_tochat_cntt": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_khainiem_cntp": 1
+    }
+  },
+  "ask_kynang_qlcn": {
+    "precision": 0.7333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.846153846153846,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_muctieutongquat_kthh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_luat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_ketoan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 0.2857142857142857,
+    "recall": 0.5,
+    "f1-score": 0.36363636363636365,
+    "support": 8,
+    "confused_with": {
+      "mood_unhappy": 4
+    }
+  },
+  "ask_luong_qlxd": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_daura_tcnh": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_thongtin_httt": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "ask_hocphi_httt": 1
+    }
+  },
+  "ask_nangluc_ktddt": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "ask_nangluc_ktcdt": 1
+    }
+  },
+  "ask_muctieutongquat_nna": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_muctieucuthe_ketoan": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "ask_daura_ketoan": 1,
+      "ask_muctieucuthe_nna": 1
+    }
+  },
+  "ask_kienthuc_ktddt": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_hocphi_cntt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "ask_khainiem_tcnh": 1,
+      "ask_khainiem_qlcn": 1,
+      "ask_hocphi_luat": 1
+    }
+  },
+  "ask_luong_tcnh": {
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1-score": 0.9166666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_kienthuc_cnsh": {
+    "precision": 0.5714285714285714,
+    "recall": 0.8,
+    "f1-score": 0.6666666666666666,
+    "support": 5,
+    "confused_with": {
+      "ask_daura_cnsh": 1
+    }
+  },
+  "ask_muctieucuthe_logistic": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "ask_kynang_logistic": 1
+    }
+  },
+  "ask_vitrivieclam_kthh": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "ask_kynang_kthh": 1,
+      "ask_vitrivieclam_ktpm": 1
+    }
+  },
+  "ask_nangluc_nna": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_kynang_ktctxd": {
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1-score": 0.9166666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_hocphi_luat": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_khainiem_luat": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "ask_khainiem_ktnl": {
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1-score": 0.9166666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.875,
+    "recall": 0.7,
+    "f1-score": 0.7777777777777777,
+    "support": 10,
+    "confused_with": {
+      "mood_unhappy": 1,
+      "deny": 1
+    }
+  },
+  "ask_nangluc_qtkd": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "ask_kynang_qtkd": 1
+    }
+  },
+  "ask_daoducnghenghiep_kthh": {
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1-score": 0.5454545454545454,
+    "support": 6,
+    "confused_with": {
+      "ask_daoducnghenghiep_ktddt": 2,
+      "ask_daoducnghenghiep_luat": 1
+    }
+  },
+  "ask_daura_khdl": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "ask_kienthuc_khdl": 2,
+      "ask_tochat_khdl": 1,
+      "ask_vitrivieclam_khdl": 1
+    }
+  },
+  "ask_kynang_qlxd": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "ask_kynang_qlcn": 1
+    }
+  },
+  "ask_khainiem_nna": {
+    "precision": 0.6875,
+    "recall": 1.0,
+    "f1-score": 0.8148148148148148,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_nangluc_tcnh": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 10,
+    "confused_with": {
+      "ask_khainiem_tcnh": 2,
+      "ask_nangluc_cntp": 1
+    }
+  },
+  "ask_kynang_qtkd": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_khainiem_qlxd": {
+    "precision": 0.7692307692307693,
+    "recall": 1.0,
+    "f1-score": 0.8695652173913044,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_kienthuc_tcnh": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 5,
+    "confused_with": {
+      "ask_daura_tcnh": 2,
+      "ask_khainiem_tcnh": 1
+    }
+  },
+  "ask_vitrivieclam_ktcdt": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "ask_vitrivieclam_ktddt": 2,
+      "ask_khainiem_ktddt": 1
+    }
+  },
+  "ask_vitrivieclam_ktnl": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "ask_khainiem_ktnl": 2,
+      "ask_daura_ktnl": 1
+    }
+  },
+  "mood_great": {
+    "precision": 0.8,
+    "recall": 0.4,
+    "f1-score": 0.5333333333333333,
+    "support": 10,
+    "confused_with": {
+      "deny": 3,
+      "mood_unhappy": 2
+    }
+  },
+  "ask_tohopxettuyen_httt": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_kienthuc_qlxd": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 4,
+    "confused_with": {
+      "ask_tohopxettuyen_qlxd": 1
+    }
+  },
+  "ask_daura_ktcdt": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 10,
+    "confused_with": {
+      "ask_daura_ktddt": 4
+    }
+  },
+  "ask_nangluc_logistic": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_kienthuc_luat": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_daura_luat": 1
+    }
+  },
+  "ask_luong_nna": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_muctieutongquat_qlxd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_muctieutongquat_tcnh": {
+    "precision": 0.7777777777777778,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.7777777777777778,
+    "support": 9,
+    "confused_with": {
+      "ask_tohopxettuyen_tcnh": 1,
+      "ask_luong_tcnh": 1
+    }
+  },
+  "ask_luong_logistic": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_daura_dktdh": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1-score": 0.8235294117647058,
+    "support": 10,
+    "confused_with": {
+      "ask_tohopxettuyen_dktdh": 2,
+      "ask_khainiem_dktdh": 1
+    }
+  },
+  "ask_daura_kthh": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 10,
+    "confused_with": {
+      "ask_tohopxettuyen_kthh": 3,
+      "ask_daura_ktnl": 1
+    }
+  },
+  "ask_daoducnghenghiep_ktctxd": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_daoducnghenghiep_qlxd": 1
+    }
+  },
+  "ask_vitrivieclam_cntt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "ask_daura_cnsh": 3,
+      "ask_khainiem_cnsh": 1
+    }
+  },
+  "ask_daura_httt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "ask_vitrivieclam_httt": 4
+    }
+  },
+  "ask_tohopxettuyen_nna": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_vitrivieclam_ktctxd": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "ask_tohopxettuyen_ktctxd": 2,
+      "ask_khainiem_ktctxd": 1
+    }
+  },
+  "ask_luong_dktdh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_ktnl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_khainiem_ktctxd": {
+    "precision": 0.7692307692307693,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8333333333333333,
+    "support": 11,
+    "confused_with": {
+      "ask_tohopxettuyen_ktctxd": 1
+    }
+  },
+  "ask_kynang_cnsh": {
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9090909090909091,
+    "support": 11,
+    "confused_with": {
+      "ask_kynang_cntp": 1
+    }
+  },
+  "ask_daoducnghenghiep_tcnh": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
+    "support": 9,
+    "confused_with": {
+      "ask_khainiem_tcnh": 2,
+      "ask_daoducnghenghiep_qlxd": 2
+    }
+  },
+  "ask_kynang_ketoan": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_muctieutongquat_qtkd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_kthh": {
+    "precision": 0.7368421052631579,
+    "recall": 1.0,
+    "f1-score": 0.8484848484848484,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_kienthuc_kthh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 0.375,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.4444444444444444,
+    "support": 11,
+    "confused_with": {
+      "deny": 3,
+      "mood_great": 1
+    }
+  },
+  "ask_muctieutongquat_ketoan": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "ask_muctieutongquat_tcnh": 1
+    }
+  },
+  "ask_diemchuan_cntp": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "ask_luong_cntp": 2
+    }
+  },
+  "ask_muctieucuthe_ktctxd": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_nangluc_qlxd": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 6,
+    "confused_with": {
+      "ask_khainiem_qlxd": 2,
+      "ask_luong_qlxd": 1
+    }
+  },
+  "ask_khainiem_cntp": {
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1-score": 0.9166666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_diemchuan_qlxd": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "ask_tohopxettuyen_qlxd": 2
+    }
+  },
+  "ask_muctieutongquat_ktcdt": {
+    "precision": 0.8333333333333334,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.6666666666666667,
+    "support": 9,
+    "confused_with": {
+      "ask_muctieutongquat_ktddt": 4
+    }
+  },
+  "affirm": {
+    "precision": 0.8,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6666666666666666,
+    "support": 7,
+    "confused_with": {
+      "deny": 2,
+      "ask_tohopxettuyen_tcnh": 1
+    }
+  },
+  "ask_muctieucuthe_luat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_daura_ktctxd": {
+    "precision": 1.0,
+    "recall": 0.3,
+    "f1-score": 0.4615384615384615,
+    "support": 10,
+    "confused_with": {
+      "ask_tohopxettuyen_ktctxd": 5,
+      "ask_kienthuc_ktctxd": 1
+    }
+  },
+  "ask_nangluc_qlcn": {
+    "precision": 1.0,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4444444444444445,
+    "support": 7,
+    "confused_with": {
+      "ask_kynang_qlcn": 2,
+      "ask_nangluc_cntp": 1
+    }
+  },
+  "ask_muctieutongquat_dktdh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_kynang_cntp": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_luong_ketoan": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 5,
+    "confused_with": {
+      "ask_luong_luat": 3,
+      "ask_daura_ketoan": 1
+    }
+  },
+  "ask_muctieucuthe_cntp": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 10,
+    "confused_with": {
+      "ask_muctieucuthe_cnsh": 5
+    }
+  },
+  "ask_kienthuc_qlcn": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "ask_khainiem_qlcn": 2
+    }
+  },
+  "ask_daoducnghenghiep_qlcn": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 6,
+    "confused_with": {
+      "ask_daoducnghenghiep_qlxd": 1
+    }
+  },
+  "ask_kynang_ktcdt": {
+    "precision": 0.6363636363636364,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.6363636363636364,
+    "support": 11,
+    "confused_with": {
+      "ask_kynang_ktddt": 3,
+      "ask_kynang_kthh": 1
+    }
+  },
+  "ask_diemchuan_logistic": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "ask_khainiem_logistic": 1
+    }
+  },
+  "ask_muctieucuthe_cnsh": {
+    "precision": 0.5882352941176471,
+    "recall": 1.0,
+    "f1-score": 0.7407407407407407,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_nangluc_ktnl": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "ask_kynang_ktnl": 1
+    }
+  },
+  "ask_hocphi_logistic": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_tochat_khmt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_hocphi_khmt": 2,
+      "ask_vitrivieclam_khmt": 2,
+      "ask_khainiem_khmt": 1
+    }
+  },
+  "ask_vitrivieclam_logistic": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "ask_daura_logistic": 3
+    }
+  },
+  "ask_kienthuc_khmt": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "ask_vitrivieclam_khmt": 1,
+      "ask_kynang_khmt": 1
+    }
+  },
+  "ask_hocphi_dktdh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_diemchuan_ktnl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_dktdh": {
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1-score": 0.8750000000000001,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_diemchuan_nna": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7,
+    "confused_with": {
+      "ask_khainiem_nna": 1
+    }
+  },
+  "ask_diemchuan_khdl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_kynang_khdl": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_luong_khdl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_hocphi_khmt": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "ask_hocphi_luat": 1,
+      "ask_vitrivieclam_khmt": 1
+    }
+  },
+  "ask_daoducnghenghiep_qtkd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_tochat_khdl": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_diemchuan_qtkd": {
+    "precision": 1.0,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.7272727272727273,
+    "support": 7,
+    "confused_with": {
+      "ask_tohopxettuyen_qtkd": 3
+    }
+  },
+  "ask_kienthuc_qtkd": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_ktddt": {
+    "precision": 0.5833333333333334,
+    "recall": 1.0,
+    "f1-score": 0.7368421052631579,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_kynang_logistic": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_muctieutongquat_ktddt": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.761904761904762,
+    "support": 9,
+    "confused_with": {
+      "ask_muctieutongquat_ktcdt": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.75,
+    "support": 9,
+    "confused_with": {
+      "mood_unhappy": 2,
+      "greet": 1
+    }
+  },
+  "ask_thongtin_khdl": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "ask_kynang_khdl": 1
+    }
+  },
+  "ask_hocphi_qlxd": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "ask_tohopxettuyen_qlxd": 1
+    }
+  },
+  "ask_muctieutongquat_ktnl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_daoducnghenghiep_ketoan": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 8,
+    "confused_with": {
+      "ask_daura_ketoan": 3,
+      "ask_daoducnghenghiep_tcnh": 1
+    }
+  },
+  "ask_daura_cntt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "ask_daura_cnsh": 3
+    }
+  },
+  "ask_vitrivieclam_ktddt": {
+    "precision": 0.3333333333333333,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2222222222222222,
+    "support": 6,
+    "confused_with": {
+      "ask_tohopxettuyen_ktddt": 2,
+      "ask_khainiem_ktddt": 2
+    }
+  },
+  "ask_daoducnghenghiep_cnsh": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285715,
+    "support": 5,
+    "confused_with": {
+      "ask_daoducnghenghiep_cntp": 2,
+      "ask_daoducnghenghiep_qlcn": 1
+    }
+  },
+  "ask_tochat_httt": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_luong_ktcdt": {
+    "precision": 0.8333333333333334,
+    "recall": 0.45454545454545453,
+    "f1-score": 0.5882352941176471,
+    "support": 11,
+    "confused_with": {
+      "ask_luong_ktddt": 5,
+      "ask_luong_kthh": 1
+    }
+  },
+  "ask_vitrivieclam_qtkd": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 8,
+    "confused_with": {
+      "ask_khainiem_qtkd": 2,
+      "ask_kienthuc_qtkd": 1
+    }
+  },
+  "ask_vitrivieclam_luat": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "ask_khainiem_luat": 1
+    }
+  },
+  "ask_muctieucuthe_ktddt": {
+    "precision": 0.5833333333333334,
+    "recall": 0.7,
+    "f1-score": 0.6363636363636365,
+    "support": 10,
+    "confused_with": {
+      "ask_muctieucuthe_ktcdt": 3
+    }
+  },
+  "ask_vitrivieclam_qlcn": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "ask_vitrivieclam_qlxd": 1,
+      "ask_khainiem_qlcn": 1
+    }
+  },
+  "ask_daoducnghenghiep_luat": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_nangluc_kthh": {
+    "precision": 1.0,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.7142857142857143,
+    "support": 9,
+    "confused_with": {
+      "ask_kynang_kthh": 3,
+      "ask_nangluc_ktcdt": 1
+    }
+  },
+  "ask_daoducnghenghiep_logistic": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_kynang_dktdh": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_kynang_khmt": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 5,
+    "confused_with": {
+      "ask_tohopxettuyen_khmt": 1
+    }
+  },
+  "ask_vitrivieclam_khmt": {
+    "precision": 0.3888888888888889,
+    "recall": 0.7,
+    "f1-score": 0.5,
+    "support": 10,
+    "confused_with": {
+      "ask_vitrivieclam_khdl": 2,
+      "ask_daura_khmt": 1
+    }
+  },
+  "ask_nangluc_dktdh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_vitrivieclam_cntp": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "ask_khainiem_cntp": 1
+    }
+  },
+  "ask_muctieucuthe_tcnh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_daura_cnsh": {
+    "precision": 0.47619047619047616,
+    "recall": 1.0,
+    "f1-score": 0.6451612903225806,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_muctieucuthe_qlcn": {
+    "precision": 1.0,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4444444444444445,
+    "support": 7,
+    "confused_with": {
+      "ask_muctieucuthe_cnsh": 2,
+      "ask_muctieucuthe_qlxd": 2
+    }
+  },
+  "ask_hocphi_qlcn": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_hocphi_nna": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_khdl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_diemchuan_luat": {
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1-score": 0.8750000000000001,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_luong_cntt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "ask_luong_cnsh": 2,
+      "ask_luong_cntp": 1,
+      "ask_luong_tcnh": 1
+    }
+  },
+  "ask_kienthuc_ketoan": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 5,
+    "confused_with": {
+      "ask_kienthuc_nna": 3,
+      "ask_daura_ketoan": 1
+    }
+  },
+  "ask_kienthuc_logistic": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_daura_logistic": 1
+    }
+  },
+  "ask_vitrivieclam_nna": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "ask_khainiem_nna": 2,
+      "ask_daura_nna": 1
+    }
+  },
+  "ask_vitrivieclam_khdl": {
+    "precision": 0.6923076923076923,
+    "recall": 0.9,
+    "f1-score": 0.7826086956521738,
+    "support": 10,
+    "confused_with": {
+      "ask_tochat_khdl": 1
+    }
+  },
+  "ask_khainiem_ketoan": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_khainiem_nna": 1
+    }
+  },
+  "ask_diemchuan_ktddt": {
+    "precision": 0.5555555555555556,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.6250000000000001,
+    "support": 7,
+    "confused_with": {
+      "ask_khainiem_ktddt": 2
+    }
+  },
+  "ask_thoigian_ktpm": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {
+      "ask_tohopxettuyen_dktdh": 1,
+      "deny": 1
+    }
+  },
+  "ask_kynang_ktddt": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.6,
+    "support": 11,
+    "confused_with": {
+      "ask_kynang_ktcdt": 4,
+      "ask_khainiem_ktddt": 1
+    }
+  },
+  "ask_daoducnghenghiep_dktdh": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "ask_khainiem_dktdh": 2
+    }
+  },
+  "ask_khainiem_cnsh": {
+    "precision": 0.55,
+    "recall": 1.0,
+    "f1-score": 0.7096774193548387,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_hocphi_ktddt": {
+    "precision": 0.5833333333333334,
+    "recall": 0.7,
+    "f1-score": 0.6363636363636365,
+    "support": 10,
+    "confused_with": {
+      "ask_hocphi_ktcdt": 3
+    }
+  },
+  "ask_tohopxettuyen_qtkd": {
+    "precision": 0.7368421052631579,
+    "recall": 1.0,
+    "f1-score": 0.8484848484848484,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_diemchuan_cntt": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "ask_khainiem_cnsh": 1,
+      "ask_diemchuan_cnsh": 1
+    }
+  },
+  "ask_daura_nna": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_kienthuc_ktcdt": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "ask_kienthuc_ktddt": 2
+    }
+  },
+  "ask_khainiem_ktddt": {
+    "precision": 0.35,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.45161290322580644,
+    "support": 11,
+    "confused_with": {
+      "ask_khainiem_ktcdt": 4
+    }
+  },
+  "ask_hocphi_cnsh": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_vitrivieclam_dktdh": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "ask_khainiem_dktdh": 1
+    }
+  },
+  "ask_tohopxettuyen_logistic": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "ask_tohopxettuyen_dktdh": 1
+    }
+  },
+  "ask_nangluc_cnsh": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_kienthuc_nna": {
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1-score": 0.7692307692307693,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_daura_khmt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_vitrivieclam_khmt": 5
+    }
+  },
+  "ask_vitrivieclam_tcnh": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {
+      "ask_khainiem_tcnh": 2
+    }
+  },
+  "ask_luong_cnsh": {
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1-score": 0.9166666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_qlcn": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_daura_qlxd": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.75,
+    "support": 9,
+    "confused_with": {
+      "ask_tohopxettuyen_qlxd": 3
+    }
+  },
+  "ask_daura_qlcn": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "ask_kynang_qlcn": 1,
+      "ask_tohopxettuyen_qlcn": 1
+    }
+  },
+  "ask_diemchuan_ktctxd": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8571428571428571,
+    "support": 7,
+    "confused_with": {
+      "ask_khainiem_ktctxd": 1
+    }
+  },
+  "ask_daoducnghenghiep_cntp": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_daura_qtkd": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "ask_tohopxettuyen_qtkd": 1
+    }
+  },
+  "ask_hocphi_ktpm": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_kienthuc_ktpm": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5,
+    "confused_with": {
+      "ask_tochat_ktpm": 1,
+      "ask_hocphi_ktpm": 1
+    }
+  },
+  "ask_vitrivieclam_qlxd": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "ask_tohopxettuyen_qlxd": 3,
+      "ask_kienthuc_qlxd": 1,
+      "ask_daura_qlxd": 1
+    }
+  },
+  "ask_muctieutongquat_ktctxd": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "ask_khainiem_ktctxd": 1
+    }
+  },
+  "ask_luong_cntp": {
+    "precision": 0.7333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.846153846153846,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_luong_luat": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 12,
+    "confused_with": {}
+  },
+  "ask_daura_luat": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_khmt": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_tcnh": {
+    "precision": 0.8235294117647058,
+    "recall": 1.0,
+    "f1-score": 0.9032258064516129,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_diemchuan_ktpm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_kynang_ktpm": {
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1-score": 0.8235294117647058,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_diemchuan_ktcdt": {
+    "precision": 1.0,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.6,
+    "support": 7,
+    "confused_with": {
+      "ask_diemchuan_ktddt": 4
+    }
+  },
+  "ask_muctieutongquat_qlcn": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "ask_muctieutongquat_luat": 1
+    }
+  },
+  "ask_diemchuan_qlcn": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_kynang_luat": {
+    "precision": 0.7692307692307693,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8333333333333333,
+    "support": 11,
+    "confused_with": {
+      "ask_kynang_ketoan": 1
+    }
+  },
+  "ask_khainiem_kthh": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_khainiem_logistic": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 5,
+    "confused_with": {
+      "ask_luong_logistic": 1,
+      "ask_luong_qtkd": 1
+    }
+  },
+  "ask_diemchuan_dktdh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_hocphi_qtkd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_kynang_kthh": {
+    "precision": 0.6875,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.7857142857142857,
+    "support": 12,
+    "confused_with": {
+      "ask_kynang_ktnl": 1
+    }
+  },
+  "ask_khainiem_qtkd": {
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1-score": 0.9166666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_muctieucuthe_nna": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_diemchuan_khmt": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_muctieucuthe_dktdh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_khainiem_ktcdt": {
+    "precision": 0.5,
+    "recall": 0.45454545454545453,
+    "f1-score": 0.47619047619047616,
+    "support": 11,
+    "confused_with": {
+      "ask_khainiem_ktddt": 6
+    }
+  },
+  "ask_muctieucuthe_ktnl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_vitrivieclam_cnsh": {
+    "precision": 1.0,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4444444444444445,
+    "support": 7,
+    "confused_with": {
+      "ask_daura_cnsh": 3,
+      "ask_khainiem_cnsh": 1
+    }
+  },
+  "ask_kynang_cntt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "ask_kynang_dktdh": 1,
+      "ask_nangluc_tcnh": 1,
+      "ask_nangluc_cnsh": 1
+    }
+  },
+  "ask_diemchuan_cnsh": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_nangluc_ktctxd": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9,
+    "confused_with": {
+      "ask_kynang_ktctxd": 2
+    }
+  },
+  "ask_nangluc_cntp": {
+    "precision": 0.8181818181818182,
+    "recall": 1.0,
+    "f1-score": 0.9,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_hocphi_kthh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_kienthuc_dktdh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_luong_khmt": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "ask_vitrivieclam_khmt": 1
+    }
+  },
+  "ask_daura_cntp": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_daoducnghenghiep_nna": {
+    "precision": 0.3333333333333333,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.3333333333333333,
+    "support": 3,
+    "confused_with": {
+      "ask_daoducnghenghiep_qlxd": 1,
+      "ask_khainiem_nna": 1
+    }
+  },
+  "ask_kynang_httt": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "ask_daura_httt": 2
+    }
+  },
+  "ask_thongtin_cntt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_khainiem_cnsh": 5
+    }
+  },
+  "ask_tohopxettuyen_cntt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_tohopxettuyen_cnsh": 3,
+      "ask_tohopxettuyen_cntp": 2
+    }
+  },
+  "ask_daoducnghenghiep_ktcdt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_daoducnghenghiep_ktddt": 4,
+      "ask_daoducnghenghiep_kthh": 1
+    }
+  },
+  "ask_daura_ktddt": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1-score": 0.6,
+    "support": 10,
+    "confused_with": {
+      "ask_daura_ktcdt": 2,
+      "ask_tohopxettuyen_ktddt": 1
+    }
+  },
+  "ask_tohopxettuyen_cnsh": {
+    "precision": 0.8235294117647058,
+    "recall": 1.0,
+    "f1-score": 0.9032258064516129,
+    "support": 14,
+    "confused_with": {}
+  },
+  "ask_daura_ktnl": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_muctieucuthe_kthh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_muctieutongquat_logistic": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_daoducnghenghiep_ktnl": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "ask_daoducnghenghiep_nna": 1
+    }
+  },
+  "ask_daura_ktpm": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "ask_vitrivieclam_ktpm": 2,
+      "ask_kynang_ktpm": 1
+    }
+  },
+  "ask_muctieucuthe_qlxd": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_tohopxettuyen_ktcdt": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 14,
+    "confused_with": {
+      "ask_tohopxettuyen_ktddt": 7
+    }
+  },
+  "ask_hocphi_ketoan": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8,
+    "f1-score": 0.8421052631578948,
+    "support": 10,
+    "confused_with": {
+      "ask_hocphi_tcnh": 2
+    }
+  },
+  "ask_daura_ketoan": {
+    "precision": 0.5625,
+    "recall": 1.0,
+    "f1-score": 0.72,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_luong_ktctxd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_kienthuc_cntt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "ask_kienthuc_cnsh": 2,
+      "ask_khainiem_cnsh": 1,
+      "ask_daura_cnsh": 1
+    }
+  },
+  "ask_vitrivieclam_httt": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 10,
+    "confused_with": {}
+  },
+  "ask_diemchuan_tcnh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_muctieucuthe_ktcdt": {
+    "precision": 0.5714285714285714,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.5,
+    "support": 9,
+    "confused_with": {
+      "ask_muctieucuthe_ktddt": 5
+    }
+  },
+  "ask_luong_kthh": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "ask_hocphi_khdl": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "ask_hocphi_ktctxd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "accuracy": 0.8235840297121634,
+  "macro avg": {
+    "precision": 0.806304266689727,
+    "recall": 0.7669031283182226,
+    "f1-score": 0.7622654247308838,
+    "support": 2154
+  },
+  "weighted avg": {
+    "precision": 0.829746228400178,
+    "recall": 0.8235840297121634,
+    "f1-score": 0.8048720960016409,
+    "support": 2154
+  },
+  "micro avg": {
+    "precision": 0.8235840297121634,
+    "recall": 0.8235840297121634,
+    "f1-score": 0.8235840297121634,
+    "support": 2154
+  }
+}
